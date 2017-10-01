@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kivi1.myapp.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="to place a publication you must log in to your account"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="15sp"
+        />
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="com.example.kivi1.myapp.FacebookFragment"
+        android:id="@+id/fragment"
+        android:layout_x="62dp"
+        android:layout_y="358dp" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>
