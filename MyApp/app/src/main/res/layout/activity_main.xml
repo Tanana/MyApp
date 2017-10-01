@@ -15,12 +15,14 @@
         android:textSize="15sp"
         />
     <fragment
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="110dp"
+        android:layout_height="28dp"
         android:name="com.example.kivi1.myapp.FacebookFragment"
         android:id="@+id/fragment"
         android:layout_x="62dp"
-        android:layout_y="358dp" />
+        android:layout_y="358dp"
+        tools:layout_editor_absoluteY="427dp"
+        tools:layout_editor_absoluteX="58dp" />
 
 
 
